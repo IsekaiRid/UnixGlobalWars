@@ -8,7 +8,7 @@ name: "unixglobalwars"
 author: "UnixGlobalWars"
 
 # the fully qualified main class of the mod
-main: "unix.World"
+main: "unix.World" 
 
 # the mod description as seen in the mod dialog
 description: "A global-scale warfare mod for Mindustry."
