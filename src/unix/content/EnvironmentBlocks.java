@@ -1,14 +1,12 @@
 package unix.content;
 
-import mindustry.world.blocks.environment.*;
-import mindustry.type.*;
-import mindustry.world.*;
+import mindustry.world.Block;
+import mindustry.world.blocks.environment.Floor;
 import arc.graphics.Color;
 
 public class EnvironmentBlocks {
     public static Floor rockyFloor, dustyFloor, crystalFloor, iceFloor;
-
-    public static Wall rockyWall, crystalWall;
+    public static Block rockyWall, crystalWall;   // Block saja
 
     public static void load() {
         rockyFloor = new Floor("rocky-floor") {{
@@ -24,7 +22,6 @@ public class EnvironmentBlocks {
         crystalFloor = new Floor("crystal-floor") {{
             mapColor = Color.valueOf("c5d7f0");
             variants = 3;
-            drownTime = 120f; 
         }};
 
         iceFloor = new Floor("ice-floor") {{
@@ -32,12 +29,17 @@ public class EnvironmentBlocks {
             variants = 3;
         }};
 
-        rockyWall = new Wall("rocky-wall") {{
+        /* dinding = Block biasa, solid & breakable */
+        rockyWall = new Block("rocky-wall") {{
+            solid = true;
+            breakable = true;
             mapColor = Color.valueOf("5a4a3a");
             variants = 2;
         }};
 
-        crystalWall = new Wall("crystal-wall") {{
+        crystalWall = new Block("crystal-wall") {{
+            solid = true;
+            breakable = true;
             mapColor = Color.valueOf("9bb7e0");
             variants = 2;
         }};

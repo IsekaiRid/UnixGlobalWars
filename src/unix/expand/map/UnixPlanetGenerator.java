@@ -3,6 +3,7 @@ package unix.expand.map;
 import arc.math.*;
 import arc.math.geom.Vec3;
 import arc.util.noise.Simplex;
+import arc.graphics.Color;
 import mindustry.content.Blocks;
 import mindustry.maps.generators.PlanetGenerator;
 import mindustry.world.*;

@@ -7,6 +7,7 @@ import mindustry.game.Team;
 import mindustry.graphics.g3d.HexMesh;
 import mindustry.type.ItemStack;
 import mindustry.type.Planet;
+import mindustry.content.Items;
 import unix.expand.map.UnixPlanetGenerator;
 
 public class UnixPlanets {
