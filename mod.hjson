@@ -1,7 +1,0 @@
-displayName: "UnixGlobalWars"
-name: "unixglobalwars"
-author: "UnixGlobalWars"
-main: "unix.global" 
-description: "A global-scale warfare mod for Mindustry."
-version: 1.0
-minGameVersion: 154
