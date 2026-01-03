@@ -1,22 +1,32 @@
 {
   "name": "metal-drill",
   "type": "Drill",
-
   "size": 2,
   "tier": 1,
-
   "drillTime": 350,
   "liquidBoostIntensity": 1.8,
   "warmupSpeed": 0.03,
-
   "drawRim": false,
   "drawMineItem": true,
   "rotateSpeed": 3,
-
   "requirements": [
-    {"item": "copper", "amount": 40},
-    {"item": "lead", "amount": 30}
+    {
+      "item": "copper",
+      "amount": 40
+    },
+    {
+      "item": "lead",
+      "amount": 30
+    }
   ],
-
+  "research": {
+    "parent": "mechanical-drill",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 500
+      }
+    ]
+  },
   "category": "production"
 }
