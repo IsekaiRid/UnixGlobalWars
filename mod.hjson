@@ -4,4 +4,4 @@ author: "UnixGlobalWars"
 main: "unix.global" 
 description: "A global-scale warfare mod for Mindustry."
 version: 1.0
-minGameVersion: 146
+minGameVersion: 154
