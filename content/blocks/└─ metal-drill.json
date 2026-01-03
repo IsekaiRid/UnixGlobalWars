@@ -9,7 +9,7 @@
   "liquidBoostIntensity": 1.8,
   "warmupSpeed": 0.03,
 
-  "drawRim": true,
+  "drawRim": false,
   "drawMineItem": true,
   "rotateSpeed": 3,
 
