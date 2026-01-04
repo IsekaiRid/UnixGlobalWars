@@ -1,12 +1,13 @@
 {
-    "name": "b17",
-    "localizedName": "b17",
-    "captureWave": 11,
-    "planet": "planetB17",  
-    "sector": 0,
-    "difficulty": 3,
-    "alwaysUnlocked": true,
-    "research": {
-        "parent": "core-shard"
-    }
+  "name": "b17",
+  "localizedName": "Sektor Landing B17",
+  "description": "Misi pendaratan pertama.",
+  "planet": "planetB17",
+  "sector": 0,
+  "difficulty": 3,
+  "alwaysUnlocked": true,
+  "captureWave": 11,
+  "research": {
+    "parent": "core-shard"
+  }
 }

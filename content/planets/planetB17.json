@@ -1,18 +1,16 @@
 {
   "name": "planetB17",
-  "localizedName": "planetB17",
+  "localizedName": "Planet B17",
   "generator": "SerpuloPlanetGenerator",
   "parent": "sun",
   "iconColor": "6bd26b",
   "orbitRadius": 70,
-  "drawOrbit": true,
+  "hasAtmosphere": true,
+  "updateLighting": true,
   "accessible": true,
   "alwaysUnlocked": true,
   "defaultCore": "core-shard",
   "sectorSeed": 0,
   "startSector": 0,
-  "sectorSize": 1,
-  "clearSectorOnLose": true,
-  "allowSectorInvasion": false,
-  "allowLaunchToNumbered": false
+  "sectorSize": 1
 }
