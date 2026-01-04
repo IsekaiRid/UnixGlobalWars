@@ -13,7 +13,7 @@
   "drawOrbit": false,
   "accessible": true,
   "alwaysUnlocked": true,
-  "defaultCore": "core-base",
+  "defaultCore": "core-shard",
   "sectorSeed": 0,
   "startSector": 0,
   "sectorSize": 1,
