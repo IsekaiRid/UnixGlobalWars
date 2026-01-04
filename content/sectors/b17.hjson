@@ -1,0 +1,12 @@
+{
+  name: "b17"
+  localizedName: "B17 Landing"
+  planet: planetB17
+  sector: 0
+  difficulty: 3
+  alwaysUnlocked: true
+  captureWave: 11
+  research: {
+    parent: "core-shard"
+  }
+}

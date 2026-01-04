@@ -1,0 +1,40 @@
+generator: SerpuloPlanetGenerator
+localizedName: "Planet B17"
+parent: sun
+iconColor: 6bd26b
+orbitRadius: 70
+hasAtmosphere: true
+updateLighting: true
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.3
+atmosphereColor: 6bd26b
+drawOrbit: true
+
+accessible: true
+alwaysUnlocked: true
+defaultCore: "core-shard"
+sectorSeed: 0
+startSector: 0
+sectorSize: 1
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+
+mesh: {
+    type: NoiseMesh
+    planet: planetB17
+    seed: 562697
+    color1: 6bd26b
+    color2: 2f5a2f
+    divisions: 5
+    radius: 0.9
+    octaves: 7
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
+
+itemWhiteList: [
+    "copper", "lead", "scrap", "graphite", "coal", "titanium", "thorium", "silicon", "metaglass"
+]
