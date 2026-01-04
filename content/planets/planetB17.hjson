@@ -22,17 +22,33 @@ allowSectorInvasion: false
 allowLaunchToNumbered: false
 
 mesh: {
-    type: NoiseMesh
-    planet: planetB17
-    seed: 562697
-    color1: 6bd26b
-    color2: 2f5a2f
-    divisions: 5
-    radius: 0.9
-    octaves: 7
-    persistence: 1
-    scl: 0.75
-    mag: 1.2
+  type: NoiseMesh
+  planet: planetB17
+  seed: 88               
+  divisions: 5           
+  radius: 0.9            
+  color1: 1a001a         
+  color2: bf00ff         
+  color3: ff00ff         
+  octaves: 7             
+  persistence: 0.8       
+  scl: 1.1               
+  mag: 1.5               
+}
+
+
+cloudMesh: {
+  type: HexSkyMesh
+  planet: planetB17
+  seed: 42
+  speed: 1.5
+  radius: 0.08
+  divisions: 5
+  color: ff00ffaa       
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.4
 }
 
 itemWhiteList: [
