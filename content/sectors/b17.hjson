@@ -6,6 +6,7 @@
   difficulty: 3
   alwaysUnlocked: true
   captureWave: 11
+  useAI:true
   research: {
     parent: "core-shard"
   }
