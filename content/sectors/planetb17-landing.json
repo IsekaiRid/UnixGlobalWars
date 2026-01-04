@@ -3,7 +3,6 @@
     "planet": "planetB17",
     "sector": 0,
     "difficulty": 3,
-    "research": "core-base",
     "alwaysUnlocked": true,
     "startSector": true,
     "darknessColor": "#800000",
