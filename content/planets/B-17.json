@@ -7,19 +7,14 @@
   "orbitRadius": 70,
   "drawOrbit": true,
 
-  "hasAtmosphere": true,
-  "updateLighting": true,
-  "atmosphereRadIn": 0.08,
-  "atmosphereRadOut": 0.3,
-  "atmosphereColor": "6bd26b",
-
   "accessible": true,
   "alwaysUnlocked": true,
 
   "defaultCore": "core-shard",
+
   "sectorSeed": 1,
-  "startSector": 0,
-  "sectorSize": 2,
+  "startSector": 1,
+  "sectorSize": 1,
 
   "clearSectorOnLose": true,
   "allowSectorInvasion": false,
@@ -31,9 +26,6 @@
     "scrap",
     "graphite",
     "coal",
-    "titanium",
-    "thorium",
-    "silicon",
-    "metaglass"
+    "silicon"
   ]
 }
