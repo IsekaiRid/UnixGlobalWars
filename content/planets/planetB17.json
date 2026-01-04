@@ -1,6 +1,6 @@
 {
   "name": "planetB17",
-  "generator": "SerpuloPlanetGenerator",
+  "generator": "PlanetGenerator",
   "parent": "sun",
 
   "iconColor": "6bd26b",
