@@ -1,1 +1,1 @@
-![Logo](sprites-override\ui\logo.png)
+![Logo](sprites-override/ui/logo.png)
