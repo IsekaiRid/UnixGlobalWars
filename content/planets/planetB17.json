@@ -18,14 +18,5 @@
 
   "clearSectorOnLose": true,
   "allowSectorInvasion": false,
-  "allowLaunchToNumbered": false,
-
-  "itemWhiteList": [
-    "copper",
-    "lead",
-    "scrap",
-    "graphite",
-    "coal",
-    "silicon"
-  ]
+  "allowLaunchToNumbered": false
 }
