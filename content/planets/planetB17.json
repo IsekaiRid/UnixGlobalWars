@@ -1,21 +1,16 @@
 {
-  "name": "planetb17",
+  "name": "planetB17",
   "generator": "PlanetGenerator",
   "parent": "sun",
-
   "iconColor": "6bd26b",
   "orbitRadius": 70,
   "drawOrbit": true,
-
   "accessible": true,
   "alwaysUnlocked": true,
-
   "defaultCore": "core-shard",
-
-  "sectorSeed": 0,
+  "sectorSeed": 531,
   "startSector": 0,
   "sectorSize": 1,
-
   "clearSectorOnLose": true,
   "allowSectorInvasion": false,
   "allowLaunchToNumbered": false
