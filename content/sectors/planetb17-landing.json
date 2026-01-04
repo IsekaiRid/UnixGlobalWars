@@ -1,8 +1,8 @@
 {
-  "name": "planetb17-landing",
-  "planet": "planetB17",
-  "sector": 1,
-  "difficulty": 1,
-  "captureWave": 10,
-  "alwaysUnlocked": true
+    "sector": 1,
+    "planet": "planetB17",
+    "useAI": true,
+    "captureWave": 15,
+    "difficulty": 4,
+    "alwaysUnlocked": true
 }
