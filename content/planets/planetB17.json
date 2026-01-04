@@ -1,5 +1,5 @@
 {
-  "name": "planetB17",
+  "name": "planetb17",
   "generator": "PlanetGenerator",
   "parent": "sun",
 
@@ -12,8 +12,8 @@
 
   "defaultCore": "core-shard",
 
-  "sectorSeed": 1,
-  "startSector": 1,
+  "sectorSeed": 0,
+  "startSector": 0,
   "sectorSize": 1,
 
   "clearSectorOnLose": true,
