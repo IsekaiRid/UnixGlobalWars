@@ -1,6 +1,6 @@
 {
   "name": "B-17",
-  "generator": "SerpuloPlanetGenerator",
+  "generator": "PlanetGenerator",
   "parent": "sun",
 
   "iconColor": "6bd26b",
@@ -17,8 +17,8 @@
   "alwaysUnlocked": true,
 
   "defaultCore": "core-shard",
-  "sectorSeed": 12345,
-  "startSector": 1,
+  "sectorSeed": 1,
+  "startSector": 0,
   "sectorSize": 2,
 
   "clearSectorOnLose": true,
@@ -34,37 +34,6 @@
     "titanium",
     "thorium",
     "silicon",
-    "metaglass",
-    "pyratite",
-    "blast-compound",
-    "spore-pod"
-  ],
-
-  "mesh": {
-    "type": "NoiseMesh",
-    "planet": "B-17",
-    "seed": 98765,
-    "color1": "5da823",
-    "color2": "125199",
-    "divisions": 6,
-    "radius": 0.9,
-    "octaves": 6,
-    "persistence": 1,
-    "scl": 0.8,
-    "mag": 1.1
-  },
-
-  "cloudMesh": {
-    "type": "HexSkyMesh",
-    "planet": "B-17",
-    "seed": 6,
-    "speed": 1.5,
-    "radius": 0.05,
-    "divisions": 6,
-    "color": "ffffff",
-    "octaves": 2,
-    "persistence": 1,
-    "scl": 2,
-    "thresh": 0.45
-  }
+    "metaglass"
+  ]
 }
