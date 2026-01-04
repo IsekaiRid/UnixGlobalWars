@@ -1,6 +1,6 @@
 {
   "name": "planetB17",
-  "generator": "PlanetGenerator",
+  "generator": "SerpuloPlanetGenerator",
   "parent": "sun",
   "iconColor": "6bd26b",
   "orbitRadius": 70,
@@ -8,7 +8,7 @@
   "accessible": true,
   "alwaysUnlocked": true,
   "defaultCore": "core-shard",
-  "sectorSeed": 531,
+  "sectorSeed": 0,
   "startSector": 0,
   "sectorSize": 1,
   "clearSectorOnLose": true,
