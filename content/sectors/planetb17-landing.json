@@ -1,7 +1,11 @@
 {
-    "sector": 0,
+    "captureWave": 11,
     "planet": "planetB17",
-    "captureWave": 15,
-    "difficulty": 1,
-    "alwaysUnlocked": true
+    "sector": 0,
+    "difficulty": 3,
+    "research": "core-base",
+    "alwaysUnlocked": true,
+    "startSector": true,
+    "darknessColor": "#800000",
+    "ambientLight": "#A52A2A"
 }
