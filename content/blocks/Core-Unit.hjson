@@ -14,5 +14,10 @@ squareSprite: false
 alwaysUnlocked: true
 itemCapacity: 2500
 unitCapModifier: 15
-research: core-shard
+"research" : {
+   "planet" : "planetB17", 
+   "root" : true
+   "name" : "planetB17", 
+   "requiresUnlock" : false
+  } 
 name: Core-Unit
