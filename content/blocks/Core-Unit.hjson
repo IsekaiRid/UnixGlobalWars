@@ -1,22 +1,18 @@
 type: CoreBlock
-name: core-unit
-localizedName: Core Unit
-
-health: 1000
-size: 3
-
-itemCapacity: 2000
-unitCapModifier: 3
+size: 1
+health: 50
+armor: 5
 unitType: alpha
-
+requirements: [
+ copper/1000
+]
+requiresCoreZone: true
 incinerateNonBuildable: true
+category: effect
 isFirstTier: true
-
-
-research: {
-    root: true
-    name: core-unit
-    planet: planetB17       
-}
-
+squareSprite: false
 alwaysUnlocked: true
+itemCapacity: 2500
+unitCapModifier: 15
+research: core-shard
+name: Core-Unit
