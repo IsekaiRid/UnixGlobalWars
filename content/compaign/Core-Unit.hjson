@@ -1,0 +1,26 @@
+type: CoreBlock
+name: core-unit
+localizedName: Core
+category: effect
+health: 1000
+size: 3
+
+itemCapacity: 2000          
+unitCapModifier: 3          
+unitType: beta            
+
+incinerateNonBuildable: true
+isFirstTier: true
+squareSprite: false
+
+requirements: [
+    
+]
+
+research: {
+    root: true
+    name: core-unit
+    planet: planetBT17       
+}
+
+alwaysUnlocked: true
