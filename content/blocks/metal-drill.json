@@ -1,5 +1,6 @@
 {
   "name": "metal-drill",
+  "localizedName": "Metal Drill",
   "type": "Drill",
   "size": 2,
   "tier": 1,
@@ -20,7 +21,8 @@
     }
   ],
   "research": {
-    "parent": "mechanical-drill",
+    "parent": "Core-Unit",
+    "planet" : "planetB17", 
     "requirements": [
       {
         "item": "copper",
