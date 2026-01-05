@@ -1,0 +1,22 @@
+type: CoreBlock
+name: core-unit
+localizedName: Core Unit
+
+health: 1000
+size: 3
+
+itemCapacity: 2000
+unitCapModifier: 3
+unitType: alpha
+
+incinerateNonBuildable: true
+isFirstTier: true
+
+
+research: {
+    root: true
+    name: core-unit
+    planet: planetB17       
+}
+
+alwaysUnlocked: true
