@@ -7,7 +7,7 @@ size: 3
 
 itemCapacity: 2000          
 unitCapModifier: 3          
-unitType: beta            
+unitType: alpha            
 
 incinerateNonBuildable: true
 isFirstTier: true
