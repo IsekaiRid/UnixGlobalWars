@@ -26,7 +26,7 @@
     "requirements": [
       {
         "item": "copper",
-        "amount": 500
+        "amount": 10
       }
     ]
   },
